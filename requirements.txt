@@ -1,0 +1,8 @@
+dlt[duckdb]
+streamlit
+yfinance
+panda
+plotly
+ta
+duckdb
+
