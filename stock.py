@@ -334,9 +334,7 @@ def main():
                             comparison_fig = create_comparison_chart(df)
                             st.plotly_chart(comparison_fig, use_container_width=True)
                         
-                        # Raw Data Display
-                        if st.checkbox("Show Raw Data"):
-                            st.dataframe(df)
+                       
                     
                     else:
                         st.warning("No data available for the selected symbols and date range.")
